@@ -46,6 +46,12 @@
       "name": "BSC",
       "symbol": "BNB",
       "coingecko_id": "binancecoin"
+    },
+    "avalanche": {
+      "rpc": "https://api.avax.network/ext/bc/C/rpc",
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "coingecko_id": "avalanche-2"
     }
   },
   "solana": {
