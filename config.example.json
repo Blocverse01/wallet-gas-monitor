@@ -1,0 +1,61 @@
+{
+  "threshold_usd": 10,
+  "check_interval_minutes": 10,
+  "alert_cooldown_hours": 6,
+  "evm_address": "YOUR_EVM_ADDRESS",
+  "solana_address": "YOUR_SOLANA_ADDRESS",
+  "chains": {
+    "ethereum": {
+      "rpc": "https://ethereum-rpc.publicnode.com",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "coingecko_id": "ethereum"
+    },
+    "base": {
+      "rpc": "https://mainnet.base.org",
+      "name": "Base",
+      "symbol": "ETH",
+      "coingecko_id": "ethereum"
+    },
+    "polygon": {
+      "rpc": "https://polygon-rpc.com",
+      "name": "Polygon",
+      "symbol": "POL",
+      "coingecko_id": "polygon-ecosystem-token"
+    },
+    "optimism": {
+      "rpc": "https://mainnet.optimism.io",
+      "name": "Optimism",
+      "symbol": "ETH",
+      "coingecko_id": "ethereum"
+    },
+    "arbitrum": {
+      "rpc": "https://arb1.arbitrum.io/rpc",
+      "name": "Arbitrum",
+      "symbol": "ETH",
+      "coingecko_id": "ethereum"
+    },
+    "celo": {
+      "rpc": "https://forno.celo.org",
+      "name": "Celo",
+      "symbol": "CELO",
+      "coingecko_id": "celo"
+    },
+    "bsc": {
+      "rpc": "https://bsc-dataseed.binance.org",
+      "name": "BSC",
+      "symbol": "BNB",
+      "coingecko_id": "binancecoin"
+    }
+  },
+  "solana": {
+    "rpc": "https://api.mainnet-beta.solana.com",
+    "name": "Solana",
+    "symbol": "SOL",
+    "coingecko_id": "solana"
+  },
+  "telegram": {
+    "chat_id": "YOUR_TELEGRAM_CHAT_ID",
+    "bot_token": "YOUR_TELEGRAM_BOT_TOKEN"
+  }
+}
